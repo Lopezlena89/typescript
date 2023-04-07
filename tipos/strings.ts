@@ -1,0 +1,17 @@
+(()=>{
+
+    const batman:string = 'Batman';
+    const linternaVerdev:string = "Linterna Verde";
+    const volcanNegro:string = `Heroe: Volcan Negro`;
+
+    
+
+    console.log(`I'm ${batman}`);
+
+    console.log(batman.toUpperCase());
+
+
+    console.log(batman[10]?.toUpperCase() || 'No esta presente');
+
+
+})()
